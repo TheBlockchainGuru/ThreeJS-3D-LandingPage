@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-// import Left from "../components/Left";
 import ForCanvas from "../components/ForCanvas";
 import MobileViewText from "../components/MobileView";
 import styles from "../styles/Home.module.css";
-import Spinner from "../components/Spinner";
-import { useEffect } from "react";
 import { isMobile } from "react-device-detect";
 
 const Home: NextPage = () => {
@@ -17,15 +14,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        {/* <Spinner />; */}
-        { !isMobile ?
-            <ForCanvas />
-          : (
-            <MobileViewText />
-          )}
-        
-      </main>
+      { !isMobile ? (
+        <main className={styles.main}>
+          <ForCanvas />
+        </main>
+      ) : (
+        <MobileViewText />
+      ) }
+
     </div>
   );
 };
