@@ -779,11 +779,25 @@ const Model = (props) => {
                   <div className="teamWrapper1">
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/roadmap/R1.png"
+                        src="/Assets/roadmap/R1_blank.png"
                         alt=""
                         width={200}
                         height={150}
                       />
+
+                      <div className={styles.teamText} style={{ top: '22%', left:'7%', width: '60%' }}>
+                        <p className={ styles.title }>
+                          STAGE 1 - RISING FROM THE UNDERGROUND
+                        </p>
+
+                        <p>
+                          1. Bettering the headquarters
+                          <br/>
+                          2. Join forces
+                          <br/>
+                          3. Cryonic rewarding
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -793,11 +807,25 @@ const Model = (props) => {
                   <div className="teamWrapper1">
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/roadmap/R2.png"
+                        src="/Assets/roadmap/R2_blank.png"
                         alt=""
                         width={200}
                         height={150}
                       />
+
+                      <div className={styles.teamText} style={{ top: '27%', left:'7%', width: '60%' }}>
+                        <p className={ styles.title }>
+                        STAGE 2 - NOT ONLY A DISTRICT
+                        </p>
+
+                        <p>
+                          1. Beau Coup's Accelerator
+                          <br/>
+                          2. Bishop's sniping tools
+                          <br/>
+                          3. Audessers Revenge
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -807,11 +835,23 @@ const Model = (props) => {
                   <div className="teamWrapper1">
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/roadmap/R3.png"
+                        src="/Assets/roadmap/R3_blank.png"
                         alt=""
                         width={200}
                         height={150}
                       />
+
+                      <div className={styles.teamText} style={{ top: '25%', left:'7%', width: '60%' }}>
+                        <p className={ styles.title }>
+                          STAGE 3 - LET THE GAMES BEGIN
+                        </p>
+
+                        <p>
+                          1. Beau Coup Assemble
+                          <br/>
+                          2. Present further plans
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -821,11 +861,25 @@ const Model = (props) => {
                   <div className="teamWrapper1">
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/roadmap/R4.png"
+                        src="/Assets/roadmap/R4_blank.png"
                         alt=""
                         width={200}
                         height={150}
                       />
+
+                      <div className={styles.teamText} style={{ top: '26%', left:'7%', width: '60%' }}>
+                        <p className={ styles.title }>
+                        UNDISTURBED ACTIVITIES
+                        </p>
+
+                        <p>
+                          Treasury scaling
+                          <br/>
+                          Learn-to-earn
+                          <br/>
+                          BCD Initiatives
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -835,11 +889,17 @@ const Model = (props) => {
                   <div className="teamWrapper1">
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/roadmap/R5.png"
+                        src="/Assets/roadmap/R5_blank.png"
                         alt=""
                         width={200}
                         height={150}
                       />
+
+                      <div className={styles.teamText} style={{ top: '2%', left:'5%', width: '60%' }}>
+                        <p style={{ fontSize: '7px' }}>
+                          A continuous activity of the Beau Coup organization will be treasury scaling. Hand-picke, proficient sifters will oversee the BCD's funds and manage their direction while complying with hard-coded rules. This way, the organization ensures to scale up the funds without worrying about the market situation. Thus, the Beau Coup group will always have the resources needed to evolve the movement and gather more allies.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -889,7 +949,7 @@ const Model = (props) => {
                         height={340}
                       />
 
-                      <div className={styles.teamText} style={{ top: '5%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '5%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                           ORGANIZATION ID NAME - LOVIN
                         </p>
@@ -901,7 +961,7 @@ const Model = (props) => {
                         </p>
                       </div>
 
-                      <div className={styles.teamText} style={{ top: '48%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '48%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                           ORGANIZATION ID NAME - BISHOP
                         </p>
@@ -927,7 +987,7 @@ const Model = (props) => {
                         height={340}
                       />
 
-                      <div className={styles.teamText} style={{ top: '8%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '8%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                         ORGANIZATION ID NAME - SMOKE
                         </p>
@@ -939,7 +999,7 @@ const Model = (props) => {
                         </p>
                       </div>
 
-                      <div className={styles.teamText} style={{ top: '48%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '48%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                         ORGANIZATION ID NAME - RUST
                         </p>
@@ -966,7 +1026,7 @@ const Model = (props) => {
                         height={360}
                       />
 
-                      <div className={styles.teamText} style={{ top: '5%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '5%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                           ORGANIZATION ID NAME - MERCEDHEES
                         </p>
@@ -980,7 +1040,7 @@ const Model = (props) => {
                         </p>
                       </div>
 
-                      <div className={styles.teamText} style={{ top: '53%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '53%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                         ORGANIZATION ID NAME - MOON-BAGGER
                         </p>
@@ -1010,27 +1070,28 @@ const Model = (props) => {
                         height={360}
                       />
 
-                      <div className={styles.teamText} style={{ top: '6%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '7%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
-                          ORGANIZATION ID NAME - LOVIN
+                          ORGANIZATION ID NAME - GMAN
                         </p>
 
                         <p>
-                          Mastermind (Project Manager).<br/>
-                          First to live and die for the movement<br/>
-                          Built identities for 15 years. Has worked incognito with Audesser brands: Mercedes, Pepsi, Rockstar;
+                        The White Chapeau (Protection)<br/>
+                        Builder of walls of fire and brimstone.<br/>
+                        Security of the Beau Coup servers;
                         </p>
                       </div>
 
-                      <div className={styles.teamText} style={{ top: '51%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '49%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
-                          ORGANIZATION ID NAME - BISHOP
+                        ORGANIZATION ID NAME - INSURGENTS
                         </p>
 
                         <p>
-                          The Black Chapeau (Developer)<br/>
-                          Beau Coup's shepherd of clever minds.<br/>
-                          Connects the Sifter channels. Crypto Adaptor, having worked on various Decentralized systems;
+                        Ximads; Diree; Sanchez; EuroSadBoy; Frank<br/>
+                        Beaucoup Beaus (Artists)<br/>
+                        Creators of propaganda. The movement paints the world with their hands.<br/>
+                        Worked with brands such as: Nike; Rebook including many more;
                         </p>
                       </div>
                     </div>
@@ -1048,27 +1109,27 @@ const Model = (props) => {
                         height={360}
                       />
 
-                      <div className={styles.teamText} style={{ top: '7%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '6%', left:'34%', width: '20%' }}>
                         <p className={ styles.title }>
-                          ORGANIZATION ID NAME - LOVIN
+                        ORGANIZATION ID NAME - ENFORCERS
                         </p>
 
                         <p>
-                          Mastermind (Project Manager).<br/>
-                          First to live and die for the movement<br/>
-                          Built identities for 15 years. Has worked incognito with Audesser brands: Mercedes, Pepsi, Rockstar;
+                        Darkblizzard; DocHuckleberry; Samseo; HarryNiu HKJC; K7; Matei; Siomay; Ganjagymgod; HotmessMellow<br/>
+                        Moderators; The Beau Coup's Tier 1
                         </p>
                       </div>
 
-                      <div className={styles.teamText} style={{ top: '50.5%', left:'18%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '47%', left:'34%', width: '20%' }}>
                         <p className={ styles.title }>
-                          ORGANIZATION ID NAME - BISHOP
+                          ORGANIZATION ID NAME - STRATEGISTS
                         </p>
 
                         <p>
-                          The Black Chapeau (Developer)<br/>
-                          Beau Coup's shepherd of clever minds.<br/>
-                          Connects the Sifter channels. Crypto Adaptor, having worked on various Decentralized systems;
+                        Dyno; Ayhth; Haputt; Jfx187; Mike Costache Advisers; The Beau Coup's consultants<br/>
+                        M.C. has managed Hedge Funds;<br/>
+                        Haputt part of leading VC Asia<br/>
+                        Dyno Co-founder of 721club, OpenDAO
                         </p>
                       </div>
                     </div>
