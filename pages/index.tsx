@@ -21,7 +21,6 @@ const Home: NextPage = () => {
       ) : (
         <MobileViewText />
       ) }
-
     </div>
   );
 };
