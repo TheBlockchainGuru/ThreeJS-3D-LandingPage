@@ -897,7 +897,7 @@ const Model = (props) => {
 
                       <div className={styles.teamText} style={{ top: '2%', left:'5%', width: '60%' }}>
                         <p style={{ fontSize: '7px' }}>
-                          A continuous activity of the Beau Coup organization will be treasury scaling. Hand-picke, proficient sifters will oversee the BCD's funds and manage their direction while complying with hard-coded rules. This way, the organization ensures to scale up the funds without worrying about the market situation. Thus, the Beau Coup group will always have the resources needed to evolve the movement and gather more allies.
+                          A continuous activity of the Beau Coup organization will be treasury scaling. Hand-picked, proficient sifters will oversee the BCD's funds and manage their direction while complying with hard-coded rules. This way, the organization ensures to scale up the funds without worrying about the market situation. Thus, the Beau Coup group will always have the resources needed to evolve the movement and gather more allies.
                         </p>
                       </div>
                     </div>
