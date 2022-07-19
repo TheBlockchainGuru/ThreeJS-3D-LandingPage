@@ -755,7 +755,7 @@ const Model = (props) => {
           position={[3, -13.3, 29.601]}
           rotation={[1.571, 0, 0]}
         >
-          <div class={styles.roadmap}>
+          <div className={styles.roadmap}>
             <Swiper
               grabCursor={true}
               effect={"creative"}
