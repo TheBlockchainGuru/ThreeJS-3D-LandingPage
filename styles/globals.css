@@ -22,7 +22,7 @@ a {
 }
 .swiper {
   /* margin: 100px auto; */
-  width: 350px;
+  width: 500px;
   margin-left: 10px !important;
   /* height: 250px;  */
   /* background-color: #000; */
@@ -54,4 +54,8 @@ a {
   position: relative;
   margin-top: 18px;
   margin-right: 95px;
+}
+
+.swiper-slide { 
+  width: 500px !important;
 }

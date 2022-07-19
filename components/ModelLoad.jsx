@@ -882,13 +882,36 @@ const Model = (props) => {
                 <div className={styles.collection}>
                   <div className={styles.teamWrapper}>
                     <div className={styles.teamImage}>
-                      {/* <span style={{ fontSize: '7px', color: '#00ff00' }}>helloworldsjldfksjdfklsdjflkj</span> */}
                       <Image
-                        src="/Assets/team/1.png"
+                        src="/Assets/team/1_blank.png"
                         alt=""
                         width={500}
                         height={340}
                       />
+
+                      <div className={styles.teamText} style={{ top: '5%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - LOVIN
+                        </p>
+
+                        <p>
+                          Mastermind (Project Manager).<br/>
+                          First to live and die for the movement<br/>
+                          Built identities for 15 years. Has worked incognito with Audesser brands: Mercedes, Pepsi, Rockstar;
+                        </p>
+                      </div>
+
+                      <div className={styles.teamText} style={{ top: '48%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - BISHOP
+                        </p>
+
+                        <p>
+                          The Black Chapeau (Developer)<br/>
+                          Beau Coup's shepherd of clever minds.<br/>
+                          Connects the Sifter channels. Crypto Adaptor, having worked on various Decentralized systems;
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -898,11 +921,36 @@ const Model = (props) => {
                   <div className={styles.teamWrapper}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/2.png"
+                        src="/Assets/team/2_blank.png"
                         alt=""
                         width={500}
                         height={340}
                       />
+
+                      <div className={styles.teamText} style={{ top: '8%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                        ORGANIZATION ID NAME - SMOKE
+                        </p>
+
+                        <p>
+                        Orateur extraordinaire (Marketer)<br/>
+                        Propaganda leader, Audesser's most wanted.<br/>
+                        Recruited from web 2.0 for his talents.
+                        </p>
+                      </div>
+
+                      <div className={styles.teamText} style={{ top: '48%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                        ORGANIZATION ID NAME - RUST
+                        </p>
+
+                        <p>
+                        Chef Comptroller (Financials)<br/>
+                        Never shot a gun yet he always has the money shot.<br/>
+                        Supply and currency manager; Keeps the organization stable<br/>
+                        Managed a 70 personnel company.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -912,11 +960,41 @@ const Model = (props) => {
                   <div className={styles.teamWrapper}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/3.png"
+                        src="/Assets/team/3_blank.png"
                         alt=""
                         width={500}
                         height={360}
                       />
+
+                      <div className={styles.teamText} style={{ top: '5%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - MERCEDHEES
+                        </p>
+
+                        <p>
+                          Beau Crowd whisperer (Community Manager)
+                          <br/>
+                          He makes your head spin and you're gonna love it.
+                          <br/>
+                          Defense strategist; Leader in diplomacy.
+                        </p>
+                      </div>
+
+                      <div className={styles.teamText} style={{ top: '53%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                        ORGANIZATION ID NAME - MOON-BAGGER
+                        </p>
+
+                        <p>
+                          Flag Porteur (Community Manager)
+                          <br/>
+                          As long as he's standing, the movement lives on.
+                          <br/>
+                          Raid strategist; Novice trainer
+                          <br/>
+                          Well connected in the Asian space; Web3.0 adaptor.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -926,11 +1004,35 @@ const Model = (props) => {
                   <div className={styles.teamWrapper}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/4.png"
+                        src="/Assets/team/4_blank.png"
                         alt=""
                         width={500}
                         height={360}
                       />
+
+                      <div className={styles.teamText} style={{ top: '6%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - LOVIN
+                        </p>
+
+                        <p>
+                          Mastermind (Project Manager).<br/>
+                          First to live and die for the movement<br/>
+                          Built identities for 15 years. Has worked incognito with Audesser brands: Mercedes, Pepsi, Rockstar;
+                        </p>
+                      </div>
+
+                      <div className={styles.teamText} style={{ top: '51%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - BISHOP
+                        </p>
+
+                        <p>
+                          The Black Chapeau (Developer)<br/>
+                          Beau Coup's shepherd of clever minds.<br/>
+                          Connects the Sifter channels. Crypto Adaptor, having worked on various Decentralized systems;
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -940,11 +1042,35 @@ const Model = (props) => {
                   <div className={styles.teamWrapper}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/5.png"
+                        src="/Assets/team/5_blank.png"
                         alt=""
                         width={500}
                         height={360}
                       />
+
+                      <div className={styles.teamText} style={{ top: '7%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - LOVIN
+                        </p>
+
+                        <p>
+                          Mastermind (Project Manager).<br/>
+                          First to live and die for the movement<br/>
+                          Built identities for 15 years. Has worked incognito with Audesser brands: Mercedes, Pepsi, Rockstar;
+                        </p>
+                      </div>
+
+                      <div className={styles.teamText} style={{ top: '50.5%', left:'18%', width: '20%' }}>
+                        <p className={ styles.title }>
+                          ORGANIZATION ID NAME - BISHOP
+                        </p>
+
+                        <p>
+                          The Black Chapeau (Developer)<br/>
+                          Beau Coup's shepherd of clever minds.<br/>
+                          Connects the Sifter channels. Crypto Adaptor, having worked on various Decentralized systems;
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -332,6 +332,20 @@
         // filter: grayscale(0.2);
       }
 
+      .teamText {
+        color: #26ff00;
+        text-align: center;
+        font-size: 7px;
+        position: absolute;
+        
+        .title {
+          font-family: 'Odachi';
+          font-size: 13px;
+          margin-block-start: .5rem;
+          margin-block-end: .5rem;
+        }
+      }
+
       .label {
         position: absolute;
         background-image: url('../public/Assets/frame.png');
