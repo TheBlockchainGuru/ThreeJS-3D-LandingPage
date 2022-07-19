@@ -81,7 +81,7 @@ export default function ForCanvas() {
         id="div1"
       >
         <div className="scroll-up">
-          <Image src="/Assets/image.png" alt="" width={200} height={200} />
+          <Image src="/Assets/image.png" alt="" width={100} height={100} />
         </div>
         <Canvas shadows>
           <PerspectiveCamera />
