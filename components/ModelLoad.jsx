@@ -782,7 +782,7 @@ const Model = (props) => {
                         src="/Assets/roadmap/R1_blank.png"
                         alt=""
                         width={250}
-                        height={190}
+                        height={180}
                       />
 
                       <div className={styles.teamText} style={{ top: '22%', left:'7%', width: '60%' }}>
@@ -949,7 +949,7 @@ const Model = (props) => {
                         height={340}
                       />
 
-                      <div className={styles.teamText} style={{ top: '3%', left:'32%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '5%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                           ORGANIZATION ID NAME - LOVIN
                         </p>
@@ -961,7 +961,7 @@ const Model = (props) => {
                         </p>
                       </div>
 
-                      <div className={styles.teamText} style={{ top: '46%', left:'32%', width: '20%' }}>
+                      <div className={styles.teamText} style={{ top: '48%', left:'32%', width: '20%' }}>
                         <p className={ styles.title }>
                           ORGANIZATION ID NAME - BISHOP
                         </p>
