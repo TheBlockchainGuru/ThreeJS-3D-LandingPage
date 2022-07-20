@@ -772,7 +772,7 @@ const Model = (props) => {
                 },
               }}
               modules={[EffectCreative, Pagination]}
-              className="mySwiper3"
+              className="roadmapSwiper"
             >
               <SwiperSlide>
                 <div className={styles.collection}>
@@ -781,8 +781,8 @@ const Model = (props) => {
                       <Image
                         src="/Assets/roadmap/R1_blank.png"
                         alt=""
-                        width={200}
-                        height={150}
+                        width={250}
+                        height={180}
                       />
 
                       <div className={styles.teamText} style={{ top: '22%', left:'7%', width: '60%' }}>
@@ -809,7 +809,7 @@ const Model = (props) => {
                       <Image
                         src="/Assets/roadmap/R2_blank.png"
                         alt=""
-                        width={200}
+                        width={210}
                         height={150}
                       />
 
@@ -837,11 +837,11 @@ const Model = (props) => {
                       <Image
                         src="/Assets/roadmap/R3_blank.png"
                         alt=""
-                        width={200}
+                        width={210}
                         height={150}
                       />
 
-                      <div className={styles.teamText} style={{ top: '25%', left:'7%', width: '60%' }}>
+                      <div className={styles.teamText} style={{ top: '28%', left:'8%', width: '60%' }}>
                         <p className={ styles.title }>
                           STAGE 3 - LET THE GAMES BEGIN
                         </p>
@@ -867,7 +867,7 @@ const Model = (props) => {
                         height={150}
                       />
 
-                      <div className={styles.teamText} style={{ top: '26%', left:'7%', width: '60%' }}>
+                      <div className={styles.teamText} style={{ top: '26%', left:'11%', width: '60%' }}>
                         <p className={ styles.title }>
                         UNDISTURBED ACTIVITIES
                         </p>
@@ -892,10 +892,10 @@ const Model = (props) => {
                         src="/Assets/roadmap/R5_blank.png"
                         alt=""
                         width={200}
-                        height={150}
+                        height={140}
                       />
 
-                      <div className={styles.teamText} style={{ top: '2%', left:'5%', width: '60%' }}>
+                      <div className={styles.teamText} style={{ top: '2%', left:'9%', width: '60%' }}>
                         <p style={{ fontSize: '7px' }}>
                           A continuous activity of the Beau Coup organization will be treasury scaling. Hand-picked, proficient sifters will oversee the BCD's funds and manage their direction while complying with hard-coded rules. This way, the organization ensures to scale up the funds without worrying about the market situation. Thus, the Beau Coup group will always have the resources needed to evolve the movement and gather more allies.
                         </p>
@@ -936,7 +936,7 @@ const Model = (props) => {
                 },
               }}
               modules={[EffectCreative, Pagination]}
-              className="mySwiper3"
+              className="teamSwiper"
             >
               <SwiperSlide>
                 <div className={styles.collection}>

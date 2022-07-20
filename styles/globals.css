@@ -28,6 +28,13 @@ a {
   /* background-color: #000; */
 }
 
+.roadmapSwiper.swiper{
+    width: 210px;
+    margin-left: unset !important;
+    height: 160px;
+    margin-top: 45px;
+}
+
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -52,10 +59,8 @@ a {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  margin-top: 18px;
+  margin-top: 0px;
   margin-right: 95px;
-}
-
-.swiper-slide { 
-  width: 500px !important;
+  margin-bottom: 20px;
+  width: 100%;
 }
