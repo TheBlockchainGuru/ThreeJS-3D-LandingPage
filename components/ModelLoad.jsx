@@ -858,7 +858,7 @@ const Model = (props) => {
     }
     return (
       <mesh>
-        <Html transform occlude position={[4, -5, 19]} rotation={[1.6, 1.6, 0]}>
+        <Html occlude position={[4, -5, 19]} rotation={[1.6, 1.6, 0]}>
           <div className={styles.teamContainer}>
             <Swiper
               grabCursor={true}
@@ -879,199 +879,71 @@ const Model = (props) => {
               className="teamSwiper"
             >
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className={styles.teamWrapper}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/1_blank.png"
+                        src="/Assets/team/1_new.png"
                         alt=""
-                        width={500}
-                        height={340}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '5%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                          ORGANIZATION ID NAME - LOVIN
-                        </p>
-
-                        <p>
-                          Mastermind (Project Manager).<br/>
-                          First to live and die for the movement<br/>
-                          Built identities for 15 years. Has worked incognito with Audesser brands: Mercedes, Pepsi, Rockstar;
-                        </p>
-                      </div>
-
-                      <div className={styles.teamText} style={{ top: '48%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                          ORGANIZATION ID NAME - BISHOP
-                        </p>
-
-                        <p>
-                          The Black Chapeau (Developer)<br/>
-                          Beau Coup's shepherd of clever minds.<br/>
-                          Connects the Sifter channels. Crypto Adaptor, having worked on various Decentralized systems;
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className={styles.teamWrapper}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/2_blank.png"
+                        src="/Assets/team/2_new.png"
                         alt=""
-                        width={500}
-                        height={340}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '8%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                        ORGANIZATION ID NAME - SMOKE
-                        </p>
-
-                        <p>
-                        Orateur extraordinaire (Marketer)<br/>
-                        Propaganda leader, Audesser's most wanted.<br/>
-                        Recruited from web 2.0 for his talents.
-                        </p>
-                      </div>
-
-                      <div className={styles.teamText} style={{ top: '48%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                        ORGANIZATION ID NAME - RUST
-                        </p>
-
-                        <p>
-                        Chef Comptroller (Financials)<br/>
-                        Never shot a gun yet he always has the money shot.<br/>
-                        Supply and currency manager; Keeps the organization stable<br/>
-                        Managed a 70 personnel company.
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className={styles.teamWrapper}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/3_blank.png"
+                        src="/Assets/team/3_new.png"
                         alt=""
-                        width={500}
-                        height={360}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '5%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                          ORGANIZATION ID NAME - MERCEDHEES
-                        </p>
-
-                        <p>
-                          Beau Crowd whisperer (Community Manager)
-                          <br/>
-                          He makes your head spin and you're gonna love it.
-                          <br/>
-                          Defense strategist; Leader in diplomacy.
-                        </p>
-                      </div>
-
-                      <div className={styles.teamText} style={{ top: '53%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                        ORGANIZATION ID NAME - MOON-BAGGER
-                        </p>
-
-                        <p>
-                          Flag Porteur (Community Manager)
-                          <br/>
-                          As long as he's standing, the movement lives on.
-                          <br/>
-                          Raid strategist; Novice trainer
-                          <br/>
-                          Well connected in the Asian space; Web3.0 adaptor.
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className={styles.teamWrapper}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/4_blank.png"
+                        src="/Assets/team/4_new.png"
                         alt=""
-                        width={500}
-                        height={360}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '7%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                          ORGANIZATION ID NAME - GMAN
-                        </p>
-
-                        <p>
-                        The White Chapeau (Protection)<br/>
-                        Builder of walls of fire and brimstone.<br/>
-                        Security of the Beau Coup servers;
-                        </p>
-                      </div>
-
-                      <div className={styles.teamText} style={{ top: '49%', left:'32%', width: '20%' }}>
-                        <p className={ styles.title }>
-                        ORGANIZATION ID NAME - INSURGENTS
-                        </p>
-
-                        <p>
-                        Ximads; Diree; Sanchez; EuroSadBoy; Frank<br/>
-                        Beaucoup Beaus (Artists)<br/>
-                        Creators of propaganda. The movement paints the world with their hands.<br/>
-                        Worked with brands such as: Nike; Rebook including many more;
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className={styles.teamWrapper}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/5_blank.png"
+                        src="/Assets/team/5_new.png"
                         alt=""
-                        width={500}
-                        height={360}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '6%', left:'34%', width: '20%' }}>
-                        <p className={ styles.title }>
-                        ORGANIZATION ID NAME - ENFORCERS
-                        </p>
-
-                        <p>
-                        Darkblizzard; DocHuckleberry; Samseo; HarryNiu HKJC; K7; Matei; Siomay; Ganjagymgod; HotmessMellow<br/>
-                        Moderators; The Beau Coup's Tier 1
-                        </p>
-                      </div>
-
-                      <div className={styles.teamText} style={{ top: '47%', left:'34%', width: '20%' }}>
-                        <p className={ styles.title }>
-                          ORGANIZATION ID NAME - STRATEGISTS
-                        </p>
-
-                        <p>
-                        Dyno; Ayhth; Haputt; Jfx187; Mike Costache Advisers; The Beau Coup's consultants<br/>
-                        M.C. has managed Hedge Funds;<br/>
-                        Haputt part of leading VC Asia<br/>
-                        Dyno Co-founder of 721club, OpenDAO
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>

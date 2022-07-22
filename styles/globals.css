@@ -22,8 +22,9 @@ a {
 }
 .swiper {
   /* margin: 100px auto; */
-  width: 500px;
-  margin-left: 10px !important;
+  width: 100%;
+  height: auto;
+  margin-left: 0px !important;
   /* height: 250px;  */
   /* background-color: #000; */
 }
