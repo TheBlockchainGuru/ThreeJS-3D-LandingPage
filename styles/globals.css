@@ -29,10 +29,8 @@ a {
 }
 
 .roadmapSwiper.swiper{
-    width: 210px;
-    margin-left: unset !important;
-    height: 160px;
-    margin-top: 45px;
+    width: 100%;
+    height: auto;
 }
 
 .swiper-slide {

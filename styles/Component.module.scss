@@ -12,25 +12,24 @@
 }
 
 .roadmap {
-  width: 210px;
-  height: 250px;
-  // background-color: #00ff00;
-  // border-color: #00ff00;
-  // border-width: 2px;
-  // border-style: solid;
+  width: 60vw;
   color: #00ff00;
   font-size: 7px;
-  margin-left: 50px;
+  transform: translate3d(-40%, -70%, 0);
+
+  img {
+    width: 100% !important;
+  }
 
   .teamText {
     color: #26ff00;
     text-align: center;
-    font-size: 7px;
+    font-size: 26px;
     position: absolute;
     
     .title {
       font-family: 'Odachi';
-      font-size: 13px;
+      font-size: 40px;
       margin-block-start: .5rem;
       margin-block-end: .5rem;
     }
@@ -440,4 +439,10 @@
       }
     }
   }
+}
+
+.roadMapImage {
+  width: 100%;
+  position: relative;
+  height: 60vh;
 }

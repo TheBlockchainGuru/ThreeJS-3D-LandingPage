@@ -750,7 +750,7 @@ const Model = (props) => {
     return (
       <mesh>
         <Html
-          transform
+          // transform
           occlude
           position={[3, -13.3, 29.601]}
           rotation={[1.571, 0, 0]}
@@ -775,131 +775,71 @@ const Model = (props) => {
               className="roadmapSwiper"
             >
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className="teamWrapper1">
-                    <div className={styles.teamImage}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className="teamWrapper1"  style={{ width: '100%' }}>
+                    <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R1_blank.png"
+                        src="/Assets/roadmap/R1.png"
                         alt=""
-                        width={250}
-                        height={180}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '22%', left:'7%', width: '60%' }}>
-                        <p className={ styles.title }>
-                          STAGE 1 - RISING FROM THE UNDERGROUND
-                        </p>
-
-                        <p>
-                          1. Bettering the headquarters
-                          <br/>
-                          2. Join forces
-                          <br/>
-                          3. Cryonic rewarding
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className="teamWrapper1">
-                    <div className={styles.teamImage}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className="teamWrapper1" style={{ width: '100%' }}>
+                    <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R2_blank.png"
+                        src="/Assets/roadmap/R2.png"
                         alt=""
-                        width={210}
-                        height={150}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '27%', left:'7%', width: '60%' }}>
-                        <p className={ styles.title }>
-                        STAGE 2 - NOT ONLY A DISTRICT
-                        </p>
-
-                        <p>
-                          1. Beau Coup's Accelerator
-                          <br/>
-                          2. Bishop's sniping tools
-                          <br/>
-                          3. Audessers Revenge
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className="teamWrapper1">
-                    <div className={styles.teamImage}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className="teamWrapper1" style={{ width: '100%' }}>
+                    <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R3_blank.png"
+                        src="/Assets/roadmap/R3.png"
                         alt=""
-                        width={210}
-                        height={150}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '28%', left:'8%', width: '60%' }}>
-                        <p className={ styles.title }>
-                          STAGE 3 - LET THE GAMES BEGIN
-                        </p>
-
-                        <p>
-                          1. Beau Coup Assemble
-                          <br/>
-                          2. Present further plans
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className="teamWrapper1">
-                    <div className={styles.teamImage}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className="teamWrapper1" style={{ width: '100%' }}>
+                    <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R4_blank.png"
+                        src="/Assets/roadmap/R4.png"
                         alt=""
-                        width={200}
-                        height={150}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '26%', left:'11%', width: '60%' }}>
-                        <p className={ styles.title }>
-                        UNDISTURBED ACTIVITIES
-                        </p>
-
-                        <p>
-                          Treasury scaling
-                          <br/>
-                          Learn-to-earn
-                          <br/>
-                          BCD Initiatives
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className={styles.collection}>
-                  <div className="teamWrapper1">
-                    <div className={styles.teamImage}>
+                <div className={styles.collection} style={{ width: '100%' }}>
+                  <div className="teamWrapper1" style={{ width: '100%' }}>
+                    <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R5_blank.png"
+                        src="/Assets/roadmap/R5.png"
                         alt=""
-                        width={200}
-                        height={140}
+                        layout='fill'
+                        objectFit='contain'
                       />
-
-                      <div className={styles.teamText} style={{ top: '2%', left:'9%', width: '60%' }}>
-                        <p style={{ fontSize: '7px' }}>
-                          A continuous activity of the Beau Coup organization will be treasury scaling. Hand-picked, proficient sifters will oversee the BCD's funds and manage their direction while complying with hard-coded rules. This way, the organization ensures to scale up the funds without worrying about the market situation. Thus, the Beau Coup group will always have the resources needed to evolve the movement and gather more allies.
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
