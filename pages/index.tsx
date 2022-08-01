@@ -4,6 +4,7 @@ import ForCanvas from "../components/ForCanvas";
 import MobileViewText from "../components/MobileView";
 import styles from "../styles/Home.module.css";
 import { isMobile } from "react-device-detect";
+import Script from "next/script";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,8 @@ const Home: NextPage = () => {
         <meta name="description" content="Pushing the limits of an NFT" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=87bb78af%22%3E"></Script>
 
       { !isMobile ? (
         <main className={styles.main}>
