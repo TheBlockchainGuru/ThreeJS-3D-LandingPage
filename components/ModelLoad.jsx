@@ -53,7 +53,7 @@ const Model = (props) => {
     // console.log('useFrame Delta', delta);
     action.time = damp(
       action.time,
-      action.getClip().duration * offset,
+      2.1 + action.getClip().duration * offset,
       10,
       delta
     );
