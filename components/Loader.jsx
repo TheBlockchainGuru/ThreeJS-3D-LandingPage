@@ -5,7 +5,7 @@ import Image from "next/image";
 const Loader = () => {
 	const { progress } = useProgress()
 
-	const [ percent, setPercent ] = useState(0)
+	const [ percent, setPercent ] = useState(10 + Math.random()* 100 % 20)
 	const [ percentValue, setPercentValue ] = useState(0)
 
 	const percentValueRef = useRef()
@@ -19,13 +19,17 @@ const Loader = () => {
 
 	useEffect(() => {
 		if( percentValue < percent ) {
-			setPercentValue(prev => prev + 1)
+			setTimeout(() => {
+				setPercentValue(prev => prev + 1)
+			}, 10)
 		}
 	}, [percent])
 
 	useEffect(() => {
 		if( percentValue < percent ) {
-			setPercentValue(prev => prev + 1)
+			setTimeout(() => {
+				setPercentValue(prev => prev + 1)
+			}, 10)
 		}
 	}, [percentValue])
 
@@ -59,7 +63,7 @@ const Loader = () => {
 					}} 
 				/>
 
-				<h1 style={{ color: '#e4f1ff' }}>{percentValue}%</h1>
+				<h1 style={{ color: '#21ff00', fontFamily: 'Edosz', }}>{percentValue}%</h1>
 			</div>
 		</Html>
 	)

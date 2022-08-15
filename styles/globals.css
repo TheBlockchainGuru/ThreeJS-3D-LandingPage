@@ -4,6 +4,12 @@
        url('../public/Assets/fonts/Odachi/Odachi.ttf') format('truetype'), /* Super Modern Browsers */
 }
 
+@font-face {
+  font-family: 'Edosz';
+  src: local('Edosz'),
+       url('../public/Assets/fonts/Edo_SZ_Font_Family/Edo SZ 400.ttf') format('truetype'), /* Super Modern Browsers */
+}
+
 html,
 body {
   padding: 0;

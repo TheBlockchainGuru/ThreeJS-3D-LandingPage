@@ -15,7 +15,7 @@ import { useFrame } from "@react-three/fiber";
 //   Noise,
 //   SelectiveBloom,
 // } from "@react-three/postprocessing";
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import THREE, {
   ShaderMaterial,
   MeshStandardMaterial,
@@ -36,7 +36,7 @@ import styles from "../styles/Component.module.scss";
 import { damp } from "three/src/math/MathUtils";
 import { motion } from "framer-motion";
 import { FaTwitter } from "react-icons/fa";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { EffectCreative, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-creative";
@@ -747,6 +747,54 @@ const Model = (props) => {
   }
 
   function RoadMap() {
+    const ButtonsComponent = () => {
+      const swiper = useSwiper()
+      console.error(swiper)
+
+      return (
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          position: 'absolute',
+          bottom: 44,
+          transform: `translate3d(-50%, 0, 0)`,
+          left: '50%',
+          zIndex: 999,
+        }}>
+          <button 
+            onClick={() => { swiper.slidePrev() }}
+            style={{
+              cursor: 'pointer',
+              background: `url('/Assets/prevArrow.png')`,
+              outline: 'none',
+              border: 'none',
+              width: 96,
+              height: 54,
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+          </button>
+
+          <button 
+            onClick={() => { swiper.slideNext() }}
+            style={{
+              cursor: 'pointer',
+              background: `url('/Assets/nextArrow.png')`,
+              outline: 'none',
+              border: 'none',
+              width: 96,
+              height: 54,
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+          </button>
+        </div>
+      )
+    }
+
     return (
       <mesh>
         <Html
@@ -844,6 +892,8 @@ const Model = (props) => {
                   </div>
                 </div>
               </SwiperSlide>
+
+              <ButtonsComponent />
             </Swiper>
           </div>
         </Html>
@@ -852,10 +902,55 @@ const Model = (props) => {
   }
 
   function Team() {
-    function replace(hide, show) {
-      document.getElementById(hide).style.display = "none";
-      document.getElementById(show).style.display = "block";
+
+    const ButtonsComponent = () => {
+      const swiper = useSwiper()
+      console.error(swiper)
+
+      return (
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          position: 'absolute',
+          bottom: 44,
+          transform: `translate3d(-50%, 0, 0)`,
+          left: '50%',
+          zIndex: 999,
+        }}>
+          <button 
+            onClick={() => { swiper.slidePrev() }}
+            style={{
+              cursor: 'pointer',
+              background: `url('/Assets/prevArrow.png')`,
+              outline: 'none',
+              border: 'none',
+              width: 96,
+              height: 54,
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+          </button>
+
+          <button 
+            onClick={() => { swiper.slideNext() }}
+            style={{
+              cursor: 'pointer',
+              background: `url('/Assets/nextArrow.png')`,
+              outline: 'none',
+              border: 'none',
+              width: 96,
+              height: 54,
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+          </button>
+        </div>
+      )
     }
+
     return (
       <mesh>
         <Html occlude position={[4, -5, 19]} rotation={[1.6, 1.6, 0]}>
@@ -948,6 +1043,8 @@ const Model = (props) => {
                   </div>
                 </div>
               </SwiperSlide>
+
+              <ButtonsComponent />
             </Swiper>
           </div>
         </Html>
