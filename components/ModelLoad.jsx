@@ -913,7 +913,7 @@ const Model = (props) => {
           justifyContent: 'center',
           alignItems: 'center',
           position: 'absolute',
-          bottom: 44,
+          bottom: 30,
           transform: `translate3d(-50%, 0, 0)`,
           left: '50%',
           zIndex: 999,
@@ -926,9 +926,10 @@ const Model = (props) => {
               outline: 'none',
               border: 'none',
               width: 96,
-              height: 54,
+              height: 40,
               backgroundSize: 'contain',
-              backgroundRepeat: 'no-repeat'
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'left',
             }}
           >
           </button>
@@ -941,9 +942,10 @@ const Model = (props) => {
               outline: 'none',
               border: 'none',
               width: 96,
-              height: 54,
+              height: 40,
               backgroundSize: 'contain',
-              backgroundRepeat: 'no-repeat'
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'right',
             }}
           >
           </button>

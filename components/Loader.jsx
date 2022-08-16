@@ -63,7 +63,7 @@ const Loader = () => {
 					}} 
 				/>
 
-				<h1 style={{ color: '#21ff00', fontFamily: 'Edosz', }}>{percentValue}%</h1>
+				<h1 style={{ color: '#21ff00', fontFamily: 'Odachi', }}>{percentValue}%</h1>
 			</div>
 		</Html>
 	)
