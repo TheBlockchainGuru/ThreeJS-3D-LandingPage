@@ -827,7 +827,7 @@ const Model = (props) => {
                   <div className="teamWrapper1"  style={{ width: '100%' }}>
                     <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R1.png"
+                        src="/Assets/roadmap/1.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -841,7 +841,7 @@ const Model = (props) => {
                   <div className="teamWrapper1" style={{ width: '100%' }}>
                     <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R2.png"
+                        src="/Assets/roadmap/2.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -855,7 +855,7 @@ const Model = (props) => {
                   <div className="teamWrapper1" style={{ width: '100%' }}>
                     <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R3.png"
+                        src="/Assets/roadmap/3.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -869,7 +869,7 @@ const Model = (props) => {
                   <div className="teamWrapper1" style={{ width: '100%' }}>
                     <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R4.png"
+                        src="/Assets/roadmap/4.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -883,7 +883,7 @@ const Model = (props) => {
                   <div className="teamWrapper1" style={{ width: '100%' }}>
                     <div className={styles.roadMapImage}>
                       <Image
-                        src="/Assets/roadmap/R5.png"
+                        src="/Assets/roadmap/5.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -955,7 +955,7 @@ const Model = (props) => {
 
     return (
       <mesh>
-        <Html occlude position={[4, -5, 19]} rotation={[1.6, 1.6, 0]}>
+        <Html occlude position={[4, -5, 23]} rotation={[1.6, 1.6, 0]}>
           <div className={styles.teamContainer}>
             <Swiper
               grabCursor={true}
@@ -980,7 +980,7 @@ const Model = (props) => {
                   <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/1_new.png"
+                        src="/Assets/team/1.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -994,7 +994,7 @@ const Model = (props) => {
                   <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/2_new.png"
+                        src="/Assets/team/2.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -1008,7 +1008,7 @@ const Model = (props) => {
                   <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/3_new.png"
+                        src="/Assets/team/3.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -1022,7 +1022,7 @@ const Model = (props) => {
                   <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/4_new.png"
+                        src="/Assets/team/4.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
@@ -1036,7 +1036,7 @@ const Model = (props) => {
                   <div className={styles.teamWrapper} style={{ width: '100%' }}>
                     <div className={styles.teamImage}>
                       <Image
-                        src="/Assets/team/5_new.png"
+                        src="/Assets/team/5.png"
                         alt=""
                         layout='fill'
                         objectFit='contain'
