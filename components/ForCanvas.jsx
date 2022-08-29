@@ -157,7 +157,7 @@ export default function ForCanvas() {
             }}
           ></div>
           <div className={styles.options}>
-            <a className={styles.button} href={'https://twitter.com/beaucoup_eth?s=21&t=BwV3gxU3AaBsbY3dPLBDww'} target={'_blank'} rel="noreferrer">
+            <a className={styles.button} href={'https://twitter.com/beaucoup_nft'} target={'_blank'} rel="noreferrer">
               <Image src="/Assets/join-us.png" alt="" width={210} height={40} />
             </a>
             <div className={styles.button}>
@@ -168,7 +168,7 @@ export default function ForCanvas() {
                 height={30}
               />
             </div>
-            <a className={styles.button} href={'https://twitter.com/beaucoup_eth?s=21&t=BwV3gxU3AaBsbY3dPLBDww'} target={'_blank'} rel="noreferrer">
+            <a className={styles.button} href={'https://twitter.com/beaucoup_nft'} target={'_blank'} rel="noreferrer">
               <Image src="/Assets/twitter.png" alt="" width={30} height={30} />
             </a>
             <div className={styles.button}>
