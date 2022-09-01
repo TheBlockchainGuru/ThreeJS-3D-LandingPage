@@ -955,7 +955,7 @@ const Model = (props) => {
 
     return (
       <mesh>
-        <Html occlude position={[4, -5, 23]} rotation={[1.6, 1.6, 0]}>
+        <Html occlude position={[4, -2, 24]} rotation={[1.6, 1.6, 0]}>
           <div className={styles.teamContainer}>
             <Swiper
               grabCursor={true}
