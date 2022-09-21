@@ -69,3 +69,17 @@ a {
   margin-bottom: 20px;
   width: 100%;
 }
+
+.warn {
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  padding-top: 0px;
+}
+
+@keyframes example {
+  0%   {padding-top: 0px;}
+  40%  {padding-top: 10px;}
+  50%  {padding-top: 0px;}
+  100% {padding-top: 0px;}
+}

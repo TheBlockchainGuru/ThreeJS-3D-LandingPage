@@ -46,7 +46,7 @@ export default function ForCanvas() {
   const [deltaY, setDeltaY] = useState();
   const [event, setEvent] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
-
+  const direction = useRef();
   function onMouseWheel(e) {
     // console.log('scroll->', scroll.offset);
     var delta = e.deltaY;
@@ -80,8 +80,8 @@ export default function ForCanvas() {
         className={styles.scene}
         id="div1"
       >
-        <div className="scroll-up">
-          <Image src="/Assets/image.png" alt="" width={100} height={100} />
+        <div className="scroll-up warn" ref={direction}>
+          <Image className="" src="/Assets/image.png" alt="" width={100} height={100} />
         </div>
         <Canvas shadows>
           <PerspectiveCamera />
@@ -92,10 +92,10 @@ export default function ForCanvas() {
           {/* <ambientLight position={[115.634 ,-0.199677, 151.107 ]} scale={1} /> */}
           <ambientLight position={[-38.1183, -269.879, 175.15]} scale={1} />
           <Suspense fallback={<Loader />}>
-            <ScrollControls pages={10} distance={2}>
-              <Scroll>
-                <Model scale={1} />
-              </Scroll>
+            <ScrollControls pages={10} distance={2} infinite={true} >
+              
+                <Model scale={1} direction = {direction}/>
+              
             </ScrollControls>
             <Preload all />
             <Effect />

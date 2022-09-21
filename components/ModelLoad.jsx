@@ -15,7 +15,7 @@ import { useFrame } from "@react-three/fiber";
 //   Noise,
 //   SelectiveBloom,
 // } from "@react-three/postprocessing";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, useCallback } from "react";
 import THREE, {
   ShaderMaterial,
   MeshStandardMaterial,
@@ -43,17 +43,29 @@ import "swiper/css/effect-creative";
 import "swiper/css/pagination";
 import Image from "next/image";
 
+let position = 1;
 const Model = (props) => {
+
+  let init = true;
   useFrame((state, delta) => {
     const action = actions["CameraAction"];
-    const offset = scroll.scroll.current;
-    // var offset = 0;
-    // offset += deltaY * 0.001;
-    // console.log('offset state-->', offset);
-    // console.log('useFrame Delta', delta);
+    if(init && scroll.el['scrollHeight'] > 10){
+      console.log("check", scroll.el['scrollHeight']);
+      scroll.el['scrollTop'] = scroll.el['scrollHeight'];
+      scroll.scroll.current = 1;
+      init = false;
+    }
+
+    if(scroll.scroll.current > position){
+      props.direction.current.className = 'scroll-up warn';
+    }
+    if(scroll.scroll.current < position){
+      props.direction.current.className = 'scroll-up';
+    }
+
     action.time = damp(
       action.time,
-      2.1 + action.getClip().duration * offset,
+      2.1 + action.getClip().duration * (1- scroll.scroll.current),
       10,
       delta
     );
@@ -67,6 +79,7 @@ const Model = (props) => {
       cameras[0].rotation.y,
       cameras[0].rotation.z
     );
+      position = scroll.scroll.current;
   });
 
   // useEffect(() => {
@@ -697,6 +710,7 @@ const Model = (props) => {
 
   useEffect(() => {
     void (actions["CameraAction"].play().paused = true), [actions];
+    // window.scrollTo({ top: 0, left: 0});
   });
   x.actions["Text.017Action"].play();
 
@@ -906,7 +920,7 @@ const Model = (props) => {
     const ButtonsComponent = () => {
       const swiper = useSwiper()
       console.error(swiper)
-
+    
       return (
         <div style={{
           display: 'flex',
@@ -952,7 +966,6 @@ const Model = (props) => {
         </div>
       )
     }
-
     return (
       <mesh>
         <Html occlude position={[4, -2, 24]} rotation={[1.6, 1.6, 0]}>

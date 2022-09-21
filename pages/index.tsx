@@ -5,6 +5,7 @@ import MobileViewText from "../components/MobileView";
 import styles from "../styles/Home.module.css";
 import { isMobile } from "react-device-detect";
 import Script from "next/script";
+import { useEffect } from "react";
 
 const Home: NextPage = () => {
   return (

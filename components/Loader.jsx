@@ -14,7 +14,9 @@ const Loader = () => {
 	useEffect(() => {
 		if( progress > percent ) {
 			setPercent(progress)
+			
 		}
+
 	}, [progress])
 
 	useEffect(() => {
