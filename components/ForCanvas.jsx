@@ -92,7 +92,7 @@ export default function ForCanvas() {
           {/* <ambientLight position={[115.634 ,-0.199677, 151.107 ]} scale={1} /> */}
           <ambientLight position={[-38.1183, -269.879, 175.15]} scale={1} />
           <Suspense fallback={<Loader />}>
-            <ScrollControls pages={10} distance={2} infinite={true} >
+            <ScrollControls pages={10} distance={2} >
               
                 <Model scale={1} direction = {direction}/>
               
@@ -177,6 +177,11 @@ export default function ForCanvas() {
           </div>
         </div>
       )}
+
+
+      <div>
+        
+      </div>
     </>
   );
 }

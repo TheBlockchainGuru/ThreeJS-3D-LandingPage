@@ -46,6 +46,24 @@ import Image from "next/image";
 let position = 1;
 const Model = (props) => {
 
+  const roadMap = useRef();
+  const team = useRef();
+  const handleScroll = useCallback((e) => {
+    var myEvt = new e.constructor(e.type, e);
+    scroll.el['scrollTop'] += e.deltaY;
+    // console.log("first", scroll.el.dispatchEvent(new CustomEvent('wheel', { detail: { deltaY: 100 } })));
+    // scroll.el.dispatchEvent(new CustomEvent('wheel', { detail: { deltaY: 100 } }));
+    // console.log("last", e);
+  }, [])
+
+  useEffect(() => {
+    roadMap.current.onmousewheel = handleScroll;
+    team.current.onmousewheel = handleScroll;
+
+  }, [handleScroll])
+
+
+
   let init = true;
   useFrame((state, delta) => {
     const action = actions["CameraAction"];
@@ -813,6 +831,7 @@ const Model = (props) => {
       <mesh>
         <Html
           // transform
+          ref={roadMap}
           occlude
           position={[3, -13.3, 29.601]}
           rotation={[1.571, 0, 0]}
@@ -968,7 +987,7 @@ const Model = (props) => {
     }
     return (
       <mesh>
-        <Html occlude position={[4, -2, 24]} rotation={[1.6, 1.6, 0]}>
+        <Html ref={team}  occlude position={[4, -2, 24]} rotation={[1.6, 1.6, 0]}>
           <div className={styles.teamContainer}>
             <Swiper
               grabCursor={true}
