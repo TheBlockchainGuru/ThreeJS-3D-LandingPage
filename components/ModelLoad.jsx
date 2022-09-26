@@ -51,14 +51,22 @@ const Model = (props) => {
   const handleScroll = useCallback((e) => {
     var myEvt = new e.constructor(e.type, e);
     scroll.el['scrollTop'] += e.deltaY;
-    // console.log("first", scroll.el.dispatchEvent(new CustomEvent('wheel', { detail: { deltaY: 100 } })));
-    // scroll.el.dispatchEvent(new CustomEvent('wheel', { detail: { deltaY: 100 } }));
-    // console.log("last", e);
+  }, [])
+
+  const handleScrollUpMark = useCallback((e) => {
+    if(scroll.scroll.current >= position && scroll.scroll.current >= 1 && e.deltaY > 0){
+      props.direction.current.className = 'scroll-up warn';
+    }
+    else{
+      props.direction.current.className = 'scroll-up';
+
+    }
   }, [])
 
   useEffect(() => {
     roadMap.current.onmousewheel = handleScroll;
     team.current.onmousewheel = handleScroll;
+    window.document.onmousewheel = handleScrollUpMark;
 
   }, [handleScroll])
 
@@ -74,12 +82,7 @@ const Model = (props) => {
       init = false;
     }
 
-    if(scroll.scroll.current > position){
-      props.direction.current.className = 'scroll-up warn';
-    }
-    if(scroll.scroll.current < position){
-      props.direction.current.className = 'scroll-up';
-    }
+    
 
     action.time = damp(
       action.time,

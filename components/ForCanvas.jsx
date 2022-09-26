@@ -80,7 +80,7 @@ export default function ForCanvas() {
         className={styles.scene}
         id="div1"
       >
-        <div className="scroll-up warn" ref={direction}>
+        <div className="scroll-up" ref={direction}>
           <Image className="" src="/Assets/image.png" alt="" width={100} height={100} />
         </div>
         <Canvas shadows>
